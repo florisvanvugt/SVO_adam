@@ -1,0 +1,10 @@
+
+
+
+```{r}
+
+dat <- read.csv('participant001.csv')
+print(dat)
+
+```
+
