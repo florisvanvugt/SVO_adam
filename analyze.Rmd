@@ -8,3 +8,13 @@ print(dat)
 
 ```
 
+
+
+```{r}
+
+require(ggplot2)
+ggplot(dat,aes(x=response_self,y=response_other))+geom_point()
+
+```
+
+
