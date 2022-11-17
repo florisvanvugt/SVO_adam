@@ -25,7 +25,7 @@ ggsave('figure1.pdf')
 m_self <- mean(dat$response_self)
 m_other <- mean(dat$response_other)
 angle <- 360*atan( m_self/m_other )/(2*pi)
-angle
+sprintf("mean self = %f, angle = %f", m_self, angle)
 
 ```
 
