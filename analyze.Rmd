@@ -19,3 +19,14 @@ ggsave('figure1.pdf')
 ```
 
 
+
+```{r}
+
+m_self <- mean(dat$response_self)
+m_other <- mean(dat$response_other)
+angle <- 360*atan( m_self/m_other )/(2*pi)
+angle
+
+```
+
+
